@@ -126,6 +126,10 @@ main section div:hover {
   outline: 1px solid lightskyblue;
 }
 
+main section div img {
+  width: 70px;
+}
+
 main section div h4 {
   margin: 15px 0;
   font-weight: bold;

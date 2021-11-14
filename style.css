@@ -2,15 +2,21 @@
   font-family: 'Viga', sans-serif;
 }
 
+*::-moz-selection {
+  background-color: springgreen;
+}
+
+*::selection {
+  background-color: springgreen;
+}
+
 a {
   text-decoration: none;
 }
 
 nav {
-  background-color: #1313cc;
+  background-color: #523eff;
   position: relative;
-  -webkit-box-shadow: 1px 0.1px 5px 1px black;
-          box-shadow: 1px 0.1px 5px 1px black;
 }
 
 nav .navbar {
@@ -124,6 +130,7 @@ main section div {
 
 main section div:hover {
   outline: 1px solid lightskyblue;
+  background-color: #e9f9ff;
 }
 
 main section div img {
@@ -154,6 +161,5 @@ main section div button {
 
 main section div button:hover {
   background-color: lightgray;
-  text-shadow: 1px 1px 1px yellowgreen;
 }
 /*# sourceMappingURL=style.css.map */
